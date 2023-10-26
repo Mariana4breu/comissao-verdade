@@ -1,0 +1,20 @@
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "/src/assets/scss/variables";
+
+.btn-principal{
+  background-color: $laranja-principal;
+  color: #ffff;
+  cursor: pointer;
+  &:hover{
+    background-color: #c24526;
+  }
+}
+//e25e2a
+.btn-secundario{
+  background-color: $roxo-principal;
+  color: #ffff;
+  cursor: pointer;
+  &:hover{
+    background-color: #350852;
+  }
+}

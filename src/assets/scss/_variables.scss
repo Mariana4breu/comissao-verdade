@@ -1,0 +1,52 @@
+/* Layouts BOOTSTRAP */
+$xs-layout: 'only screen and (max-width: 575px)';
+$sm-layout: 'only screen and (max-width: 767px)';
+$md-layout: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$xl-layout: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$xxl-layout: 'only screen and (min-width: 1400px)';
+
+/* Layouts BOOTSTRAP  MIM (minimo no inicio do grid) */
+$min-md-layout: 'only screen and (min-width: 768px)';
+$min-lg-layout: 'only screen and (min-width: 992px)';
+
+/* Layouts BOOTSTRAP  MAX (máximo no inicio do grid) */
+$max-md-layout: 'only screen and (max-width: 991px)';
+
+//custon colors:
+$roxo-principal: #490A70;
+$rosa-secundario: #D94E93;
+$laranja-principal: #E24F2A;
+$background-principal: #FFFFFF;
+$background-secundario: #F4F4F4;
+
+
+
+//Bootstrap colors:
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+//listas de cores do bootstrap:
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "black":      black,
+  "white":      white,
+);
+
