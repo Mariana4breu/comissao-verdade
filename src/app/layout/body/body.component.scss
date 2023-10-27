@@ -58,3 +58,256 @@
     }
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px){
+  .row-principal{
+    .coluna-title{
+      .title{
+        font-size: 26px;
+      }
+      .ancora-downloadWeb{
+        display: none;
+      }
+    }
+  }
+  .row-secundaria{
+    padding: 3rem;
+    .card-autora{
+      padding-bottom: 1rem;
+      .coluna-autora{
+        display: flex;
+        .img-autora{
+          width: 60% !important;
+        }
+        .paragrafo-autora{
+          padding-top: 7rem;
+        }
+      }
+    }
+
+  }
+  .row-terciaria{
+    .coluna-download{
+      .botaoDownload{
+        width: 60%;
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .row-principal{
+    flex-direction: row;
+    .coluna-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title{
+        font-size: 26px;
+        padding-bottom: 2rem ;
+      }
+      .ancora-downloadWeb{
+        display: block;
+      }
+
+      }
+
+    .coluna-tablet{
+      text-align: center;
+      padding-bottom: 2rem;
+      .img-tablet{
+        width: 80%;
+      }
+    }
+
+    .ancora-downloadMob{
+      display: none;
+  }
+  }
+  .row-secundaria{
+    padding: 4rem;
+    .card-autora{
+      padding-bottom: 4rem;
+      .paragrafo-resumo{
+        padding: 3rem;
+        font-size: 18px;
+        .img-quote{
+          width: 5%;
+        }
+      }
+      .paragrafo-data{
+        padding-right: 3rem;
+      }
+      .coluna-autora{
+        display: flex;
+        .img-autora{
+          width: 60% !important;
+          border-radius: 100%;
+        }
+        .paragrafo-autora{
+          padding-top: 10rem;
+          font-size: 16px;
+        }
+      }
+
+    }
+
+  }
+  .row-terciaria{
+    margin-top: 5rem;
+    .coluna-download{
+      h4{
+        font-size: 24px;
+      }
+      .botaoDownload{
+        width: 50%;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+  .row-principal{
+    flex-direction: row;
+    .coluna-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title{
+        font-size: 28px;
+        padding: 2rem ;
+      }
+      .ancora-downloadWeb{
+        display: block;
+      }
+
+      }
+
+    .coluna-tablet{
+      text-align: center;
+      padding-bottom: 2rem;
+      .img-tablet{
+        width: 70%;
+      }
+    }
+
+    .ancora-downloadMob{
+      display: none;
+  }
+  }
+  .row-secundaria{
+    padding: 4rem;
+    .card-autora{
+      padding-bottom: 4rem;
+      .paragrafo-resumo{
+        padding: 4rem 4rem 2rem 4rem;
+        font-size: 20px;
+        .img-quote{
+          width: 6%;
+        }
+      }
+      .paragrafo-data{
+        padding-right: 4rem;
+        font-size: 18px;
+      }
+      .coluna-autora{
+        display: flex;
+        padding: 0;
+        .img-autora{
+          width: 60% !important;
+          border-radius: 100%;
+        }
+        .paragrafo-autora{
+          padding-top: 10rem;
+          font-size: 16px;
+        }
+      }
+
+    }
+
+  }
+  .row-terciaria{
+    margin-top: 5rem;
+    .coluna-download{
+      h4{
+        font-size: 24px;
+      }
+      .botaoDownload{
+        width: 50%;
+      }
+    }
+  }
+}
+@media (min-width: 1400px){
+  .row-principal{
+    flex-direction: row;
+    .coluna-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title{
+        font-size: 36px;
+        padding: 2rem ;
+      }
+      .ancora-downloadWeb{
+        display: block;
+      }
+
+      }
+
+    .coluna-tablet{
+      text-align: center;
+      padding-bottom: 2rem;
+      .img-tablet{
+        width: 50%;
+      }
+    }
+
+    .ancora-downloadMob{
+      display: none;
+  }
+  }
+  .row-secundaria{
+    padding: 6rem;
+    .card-autora{
+      padding-bottom: 4rem;
+      .paragrafo-resumo{
+        padding: 6rem 6rem 2rem 6rem;
+        font-size: 26px;
+        .img-quote{
+          width: 4%;
+        }
+      }
+      .paragrafo-data{
+        padding-right: 6rem;
+        font-size: 18px;
+      }
+      .coluna-autora{
+        display: flex;
+        padding: 0;
+        .img-autora{
+          width: 60% !important;
+          border-radius: 100%;
+        }
+        .paragrafo-autora{
+          padding-top: 10rem;
+          font-size: 18px;
+        }
+      }
+
+    }
+
+  }
+  .row-terciaria{
+    margin-top: 5rem;
+    .coluna-download{
+      h4{
+        font-size: 24px;
+      }
+      .botaoDownload{
+        width: 50%;
+      }
+    }
+  }
+}
