@@ -4,6 +4,8 @@
 .btn-principal{
   background-color: $laranja-principal;
   color: #ffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
   cursor: pointer;
   &:hover{
     background-color: #c24526;
@@ -11,10 +13,13 @@
 }
 //e25e2a
 .btn-secundario{
-  background-color: $roxo-principal;
+  background-color: #D94E93;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
   color: #ffff;
   cursor: pointer;
   &:hover{
-    background-color: #350852;
+    background-color: #de1378;
+    color: white;
   }
 }
